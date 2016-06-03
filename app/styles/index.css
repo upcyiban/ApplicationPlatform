@@ -1,0 +1,39 @@
+body,img,.col-xs-5,.col-md-3{
+  margin: 0;
+  padding: 0;
+}
+
+.whole{
+  margin: 4% 4% 4% 4%;
+  text-align: center;
+}
+
+.col-md-3>img,.col-xs-5>img{
+  width: 50%;
+  height: 50%;
+}
+
+.col-md-3>p,.col-xs-5>p{
+  color: 	#3CB371;
+  font-family: 微软雅黑, serif;
+}
+
+.col-md-3>p:hover,.col-xs-5>p:hover{
+  color: 	#556B2F;
+}
+
+.item{
+  border-radius: 20px;
+}
+
+.row{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+
+}
+
+.title{
+  text-align: left;
+  margin-left:6%;
+}
