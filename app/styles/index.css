@@ -37,3 +37,13 @@ body,img,.col-xs-5,.col-md-3{
   text-align: left;
   margin-left:6%;
 }
+
+.mask{
+  position: absolute;
+  background-color: #696969;
+  height: 82%;
+  width: 50%;
+  margin-left: 25%;
+  opacity: 0.7;
+  border-radius: 20px;
+}
