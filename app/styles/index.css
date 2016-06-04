@@ -1,4 +1,4 @@
-body,img,.col-xs-5,.col-md-3{
+body,img,.col-xs-5,.col-md-3,a{
   margin: 0;
   padding: 0;
 }
@@ -17,9 +17,15 @@ body{
   height: 50%;
 }
 
+.col-md-3>a>img,.col-xs-5> a >img{
+  width: 50%;
+  height: 50%;
+}
+
 .col-md-3>p,.col-xs-5>p{
   color: 	#3CB371;
   font-family: 微软雅黑, serif;
+  font-size: 16px;
 }
 
 .col-md-3>p:hover,.col-xs-5>p:hover{
@@ -31,21 +37,21 @@ body{
 }
 
 .row{
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 6%;
+  margin-bottom: 6%;
   text-align: center;
 
 }
 
 .title{
-  text-align: left;
-  margin-left:6%;
+  text-align: center;
+  font-family: 微软雅黑, serif;
 }
 
 .mask{
   position: absolute;
   background-color: #696969 ;
-  height: 82%;
+  height: 80%;
   background-color: rgba(136,136,136,0.7);
   width: 50%;
   margin-left: 25%;
