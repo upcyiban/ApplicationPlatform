@@ -65,3 +65,15 @@ body{
   -webkit-box-shadow: 0 0 5px white;
   -moz-box-shadow: 0 0 5px white;
 }
+
+@media screen and (max-width: 769px) {
+  .mask{
+    position: absolute;
+    background-color: #696969 ;
+    height: 70%;
+    background-color: rgba(136,136,136,0.7);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+  }
+}
