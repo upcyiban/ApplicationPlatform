@@ -4,7 +4,7 @@ body,img,.col-xs-5,.col-md-3,a{
 }
 
 body{
-  background-color: #87CEFA;
+  background-image: linear-gradient(90deg,	#00BFFF ,#87CEFA, 	#63B8FF,	#7EC0EE,	#7EC0EE,	#A4D3EE,	#CAE1FF);
 }
 
 .whole{
