@@ -5,6 +5,27 @@
   padding: 0.2em 0;
 }
 
+@font-face {
+  font-family: MyCustomFont ;
+  src: local(Droid Sans Fallback), url("../fonts/DroidSansFallback.ttf");
+}
+
+@font-face {
+  font-family: MyCustomFont ;
+  src: local(Arial), url("../fonts/DroidSansFallback.ttf");
+  unicode-range: U+0021-007B ;
+}
+
+@font-face {
+  font-family: MyCustomFont ;
+  src: local(Arial Rounded MT Bold);
+  unicode-range: U+0030-0039;
+}
+
+body {
+  font-family: MyCustomFont;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;

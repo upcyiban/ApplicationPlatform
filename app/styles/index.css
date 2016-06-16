@@ -23,9 +23,9 @@ body{
 }
 
 .col-md-3>p,.col-xs-5>p{
-  color: 	#3CB371;
-  font-family: 微软雅黑, serif;
-  font-size: 16px;
+  color: white;
+  font-size: 2rem;
+  margin-top: 10px;
 }
 
 .col-md-3>p:hover,.col-xs-5>p:hover{
@@ -34,6 +34,7 @@ body{
 
 .item{
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 .row{
@@ -45,17 +46,15 @@ body{
 
 .title{
   text-align: center;
-  font-family: 微软雅黑, serif;
+  color: white;
+  font-size: 4rem;
 }
 
-.mask{
-  position: absolute;
-  background-color: #696969 ;
-  height: 80%;
-  background-color: rgba(136,136,136,0.7);
-  width: 50%;
-  margin-left: 25%;
-  border-radius: 20px;
+.disabled > img {
+  -webkit-filter: blur(3px); /* Chrome, Opera */
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
 }
 
 .shadows{
@@ -73,13 +72,5 @@ body{
 }
 
 @media screen and (max-width: 769px) {
-  .mask{
-    position: absolute;
-    background-color: #696969 ;
-    height: 70%;
-    background-color: rgba(136,136,136,0.7);
-    width: 50%;
-    margin-left: 25%;
-    border-radius: 20px;
-  }
+
 }
