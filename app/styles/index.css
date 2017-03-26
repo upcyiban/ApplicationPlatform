@@ -1,72 +1,72 @@
-body,img,.col-xs-5,.col-md-3,a{
+body, img, .col-xs-5, .col-md-3, a {
   margin: 0;
   padding: 0;
 }
 
-body{
-  background-image: linear-gradient(90deg,	#00BFFF ,#87CEFA, 	#63B8FF,	#7EC0EE,	#7EC0EE,	#A4D3EE,	#CAE1FF);
+body {
+  background-image: linear-gradient(90deg, #00BFFF, #87CEFA, #63B8FF, #7EC0EE, #7EC0EE, #A4D3EE, #CAE1FF);
 }
 
-.whole{
+.whole {
   margin: 4% 4% 4% 4%;
   color: white;
   text-align: center;
 }
 
-.col-md-3>img,.col-xs-5>img{
+.col-md-3 > img, .col-xs-5 > img {
   width: 50%;
   height: 50%;
 }
 
-.col-md-3>a>img,.col-xs-5> a >img{
+.col-md-3 > a > img, .col-xs-5 > a > img {
   width: 50%;
   height: 50%;
 }
 
-.col-md-3>p,.col-xs-5>p{
+.col-md-3 > p, .col-xs-5 > p {
   color: white;
   font-size: 2rem;
   margin-top: 10px;
 }
 
-.col-md-3>p:hover,.col-xs-5>p:hover{
-  color: 	#556B2F;
+.col-md-3 > p:hover, .col-xs-5 > p:hover {
+  color: #556B2F;
 }
 
-.item{
+.item {
   border-radius: 20px;
   margin-top: 20px;
+
 }
 
-.row{
+.row {
   margin-top: 6%;
   margin-bottom: 6%;
   text-align: center;
-
 }
 
-.title{
+/*.row > img {*/
+  /*-webkit-filter: blur(3px); !* Chrome, Opera *!*/
+  /*-moz-filter: blur(3px);*/
+  /*-ms-filter: blur(3px);*/
+  /*filter: blur(3px);*/
+/*}*/
+
+.title {
   text-align: center;
   color: white;
   font-size: 4rem;
 }
 
-.disabled > img {
-  -webkit-filter: blur(3px); /* Chrome, Opera */
-  -moz-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
-}
-
-.shadows{
+.shadows {
   transition: all 0.010s linear;
   -webkit-transition: all 0.010s ease-in-out;
   -moz-transition: all 0.010s ease-in-out;
-  outline:none;
+  outline: none;
 }
 
-.shadows:hover{
-  border:#3CB371 3px solid;
+.shadows:hover {
+  border: #3CB371 3px solid;
   box-shadow: 0 0 5px white;
   -webkit-box-shadow: 0 0 5px white;
   -moz-box-shadow: 0 0 5px white;
@@ -74,4 +74,11 @@ body{
 
 @media screen and (max-width: 769px) {
 
+}
+
+.picture{
+  -webkit-filter: blur(3px); /* Chrome, Opera */
+  -moz-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
 }
